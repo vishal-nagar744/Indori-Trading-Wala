@@ -1,0 +1,204 @@
+
+  /* about section - begin */
+  .about-margin {
+    margin-top: 0px !important;
+    margin-bottom: -30px !important;
+  }
+
+ 
+  #about-head h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 4em;
+    color: #fff;
+  }
+  #about-head h3 {
+    margin-top: 0px !important;
+    font-size: 4em;
+    color: #fff;
+    font-variant: small-caps;
+  }
+  #about-head h4 {
+    margin-top: 0px !important;
+    font-size: 1.5em;
+    color: #fff;
+    font-variant: small-caps;
+  }
+  /* about section - end */
+  
+  /* stack head section - begin */
+  #jumbo-head-stack.jumbotron.white {
+    margin-top: -20px;
+    padding-bottom: 0px;
+  }
+  
+  #head-stack h3 {
+    margin-top: -28px !important;
+    font-size: 2em;
+    color: #232528;
+    font-variant: small-caps;
+  }
+  /* stack head section - end */
+  
+  /* stack section - begin */
+  #jumbo-stack.jumbotron.spiro-disco-ball {
+    margin-top: -20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .btn-dev-tech {
+    color: #fff;
+    font-size: 2em;
+    padding: 4px;
+    &:hover {
+      color: #727272;
+    }
+  }
+  /* stack section - end */
+  
+  /* portfolio section - begin */
+  #jumbo-head-portfolio.jumbotron.white {
+    margin-top: -20px;
+    padding-bottom: 0px;
+  }
+  
+  #jumbo-portfolio.jumbotron.spiro-disco-ball {
+    margin-top: -20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #head-portfolio h3 {
+    margin-top: -28px !important;
+    font-size: 2em;
+    color: #232528;
+    font-variant: small-caps;
+  }
+  /* portfolio section - end */
+  
+  /* contact section - begin */
+  #jumbo-head-contact.jumbotron.white {
+    margin-top: -20px;
+    padding-bottom: 0px;
+  }
+  
+  #jumbo-contact.jumbotron.spiro-disco-ball {
+    margin-top: -20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #head-contact h3 {
+    margin-top: -28px !important;
+    font-size: 2em;
+    color: #232528;
+    font-variant: small-caps;
+  }
+  /* contact section - end */
+  
+  /* social section - begin */
+  .btn-social {
+    color: #333;
+    font-size: 1.2em;
+    padding: 4px;
+    &:hover {
+      color: #727272;
+    }
+  }
+  /* social section - end */
+  
+  .pt0 {
+    padding-top: 0px;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
+  
+  .spiro-disco-ball {
+    background-color: #aeacac;
+  }
+  
+  /* Begin - quick look styling */
+  .content-icon {
+    text-align: center;
+    padding: 20px 25px 40px;
+    -webkit-box-shadow: 0 0 0 transparent;
+    -moz-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .content-icon:hover {
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+  }
+  .content-icon .icon {
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    -webkit-border-radius: 64px;
+    -moz-border-radius: 64px;
+    border-radius: 64px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 6px;
+    margin-left: auto;
+  
+    font-size: 32px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #f4f4f4;
+    color: #f96238;
+  }
+  .content-icon:hover .icon {
+    color: #3a3939;
+  }
+  .content-icon .title {
+    text-transform: uppercase;
+    /*     margin:0 0 25px; */
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    height: 50px;
+    overflow: hidden;
+    line-height: 25px;
+  }
+  .content-icon .body {
+    line-height: 20px;
+    min-height: 105px;
+    /*overflow:hidden;*/
+    text-overflow: ellipsis;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .content-icon .body p {
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .content-icon .body p:last-child {
+    margin-bottom: 0;
+  }
+  .content-icon:hover .btn {
+    background-color: #ff5a58;
+  }
+  
+  .btn-inverse {
+    background-color: #3a3939;
+    color: #fff;
+  }
+  .btn-inverse:focus,
+  .btn-inverse:hover {
+    background-color: #292929;
+    color: #fff;
+  }
+  /* End - quick look styling */
+  
