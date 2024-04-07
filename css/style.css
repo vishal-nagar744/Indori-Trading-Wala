@@ -369,7 +369,7 @@ button {
 .services_taital {
     width: 100%;
     float: left;
-    font-size: 34px;
+    font-size: 38px;
     color: #282c47;
     padding-top: 10px;
     text-transform: uppercase;
@@ -393,7 +393,7 @@ button {
 .services_text {
     width: 90%;
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     color: #060606;
     margin-left: 0px;
 }
