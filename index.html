@@ -43,6 +43,7 @@
   <link rel="stylesheet" href="./css/download.css">
   <link rel="stylesheet" href="./css/DownloadSection.css">
   <link rel="stylesheet" href="./css/message.css">
+  <link rel="stylesheet" href="./css/popup.css">
 </head>
 
 <body>
@@ -611,10 +612,52 @@
     <div class="msg-icons msg-img" id="msg-icons">
       <a href="https://wa.me/yourphonenumber" target="_blank"><img src="images/Whatsapp.webp" alt="WhatsApp"></a>
       <a href="tel:yourphonenumber"><img src="images/Phone.png" alt="Phone"></a>
-      <a href="https://t.me/yourusername" target="_blank"><img src="images/Telegram.png" alt="Telegram"></a>
+      <a href="https://t.me/INDORITRADINGWALA" target="_blank"><img src="images/Telegram.png" alt="Telegram"></a>
     </div>
   </div>
   <!-- message section  -->
+
+  <!-- popup section start -->
+  <div class="backdrop" id="backdrop"></div>
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <div class="popup-header">
+        <button class="close-btn" id="closeBtn">×</button>
+      </div>
+      <div class="popup-body">
+        <div class="decorative-header">
+          <span class="popup-heading">Start Trading with Confidence</span>
+        </div>
+        <p class="para">Fill in your details and take the first step towards successful trading.</p>
+        <input type="text" id="name" class="form-field" placeholder="Your Name">
+        <input type="email" id="email" class="form-field" placeholder="Email Address">
+        <input type="tel" id="phone" class="form-field" placeholder="Phone Number">
+        <button class="button" id="submitBtn">Join Now</button>
+        <div class="feature-icons">
+          <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+          <div class="feature-icon"><i class="fas fa-briefcase"></i></div>
+          <div class="feature-icon"><i class="fas fa-award"></i></div>
+        </div>
+        <span class="para">Download our app for the full experience:</span>
+        <div class="store-logos">
+          <!-- <img src="app_store_logo.png" alt="App Store" title="Download from App Store"> -->
+          <!-- App Store button -->
+          <a href="https://play.google.com/store/apps/details?id=co.paige.cmyxt" style="border-radius: 8px;" target="_blank" class="market-btn apple-btn" role="button">
+            <span class="market-button-subtitle">Download on the</span>
+            <span class="market-button-title">App Store</span>
+          </a>
+
+          <!-- Google Play button -->
+          <a href="https://play.google.com/store/apps/details?id=co.paige.cmyxt" style="border-radius: 8px;" target="_blank" class="market-btn google-btn" role="button">
+            <span class="market-button-subtitle">Download on the</span>
+            <span class="market-button-title">Google Play</span>
+          </a>
+          <!-- <img src="play_store_logo.png" alt="Play Store" title="Download from Play Store"> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- popup section end -->
 
 
   <!-- DownloadBar Section  -->
@@ -629,11 +672,11 @@
       </div>
       <div class="news-app-promo-subsection">
         <a class="news-app-promo-subsection--link news-app-promo-subsection--playstore"
-          href="https://play.google.com/store/apps/details?id=bbc.mobile.news.ww&amp;hl=en" target="_parent">
+          href="https://play.google.com/store/apps/details?id=co.paige.cmyxt" target="_parent">
           <img class="news-app-promo__play-store" src="./images/Playstore.png" width="161" height="auto" border="0">
         </a>
         <a class="news-app-promo-subsection--link news-app-promo-subsection--appstore"
-          href="https://itunes.apple.com/us/app/bbc-news/id364147881?mt=8" target="_parent">
+          href="https://play.google.com/store/apps/details?id=co.paige.cmyxt" target="_parent">
           <img class="news-app-promo__app-store" src="./images/appstore-removebg-preview.png" width="161" height="auto"
             border="0">
         </a>
@@ -729,6 +772,7 @@
   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <script src="js/message.js"></script>
+  <script src="js/popup.js"></script>
 
 </body>
 
