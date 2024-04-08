@@ -46,56 +46,88 @@
   <link rel="stylesheet" href="./css/popup.css">
   <link rel="stylesheet" href="./css/video.css">
   <link rel="stylesheet" href="./css/document.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/hero.scss">
 </head>
 
 <body>
 
-  <!-- navbar -->
-  <nav style="background-color: #f8f9fa!important;" class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- <div class="logo"><a href="index.html"><img style="border-radius: 50px;" src="images/logo1.jpeg"></a></div> -->
-    <a class="navbar-brand" href="index.html">
+
+  <!-- navbar  -->
+  <div class="navbar">
+    <div class="nav-logo">
+       <a class="navbar-brand" href="index.html">
       <span>
         <img style="width: 70px; border-radius: 50PX; margin: 7px;"
           class="imageDivImageNext-0-2-43 imageDivImageNext-d4-0-2-58" src="images/newblacklogo.png">
         Indori Trading Wala
       </span>
     </a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div style="margin-left: 33rem;" class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+    </div>
+    <div class="nav-items">
+      <ul>
         <li class="nav-item">
-          <a style="color: rgb(174, 30, 30);
-          border-bottom: 2px solid rgb(174, 30, 30);" class="nav-link" href="index.html">Home</a>
+          <a style="color: rgb(174, 30, 30);"  href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+          <a  href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="demat.html">Demat</a>
+          <a  href="demat.html">Demat</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="insurance.html">Insurance</a>
+          <a  href="insurance.html">Insurance</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="courses.html">Courses</a>
+          <a  href="courses.html">Courses</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="dailyupdate.html">Daily Update</a>
-        </li>
-        <li class="nav-item">
-          <a id="contact" class="nav-link" href="contact.html">Contact Us</a>
+          <a  href="dailyupdate.html">Daily Update</a>
         </li>
       </ul>
     </div>
-  </nav>
-  <!-- navbar -->
+    <div class="nav-button">
+      <div class="anim-layer"></div>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div id="hamburger-menu">&#9776;</div>
+  </div>
+
+  <div id="mobile-menu">
+    <div class="mobile-nav-items">
+      <ul>
+        <li class="nav-item">
+          <a style="color: rgb(174, 30, 30);
+          border-bottom: 2px solid rgb(174, 30, 30);"  href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a  href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a  href="demat.html">Demat</a>
+        </li>
+        <li class="nav-item">
+          <a  href="insurance.html">Insurance</a>
+        </li>
+        <li class="nav-item">
+          <a  href="courses.html">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a  href="dailyupdate.html">Daily Update</a>
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-nav-button">
+      <div class="anim-layer"></div>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div id="hamburger-cross">&#10006;</div>
+  </div>
+  <!-- navbar  -->
 
 
-  <!--header section start -->
+
+  <!--hero section start -->
   <div class="header_section">
     <div class="header_left">
 
@@ -109,16 +141,20 @@
         </p>
         <div class="btn_main">
           <div class="more_bt"><a href="">Read More </a></div>
-          <div class="contact_bt"><a href="https://angel-one.onelink.me/Wjgr/3fcn4djh">Start Trading Now</a></div>
+          <div class="contact_bt"><a href="https://angel-one.onelink.me/Wjgr/3fcn4djh">Start Now</a></div>
         </div>
       </div>
     </div>
     <div class="header_right">
-      <img style="height: 740px; width: 500px; margin-left: 212px; margin-top: -30px; " src="images/bannerhero.png"
+      <img style="height: 740px; width: 500px; margin-left: 212px; margin-top: 5%; " src="images/bannerhero.png"
         class="banner_img">
     </div>
   </div>
-  <!--header section end -->
+  <!--hero section end -->
+
+  <!-- hero section  -->
+
+  <!-- hero section  -->
 
   <!-- video section  -->
   <section class="video-sec">
@@ -222,8 +258,6 @@
       </div>
     </div>
   </div>
-
-  <!-- <div class="project_section_2 layout_padding">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-sm-6">
@@ -640,70 +674,6 @@
   <!-- DownloadBar Section  -->
 
 
-  <!--team section start -->
-  <!-- <div class="team_section layout_padding">
-    <div class="container">
-      <h1 class="what_taital">Our Team and experts</h1>
-      <p class="what_text_1">It is a long established fact that a reader will be distracted by the readable content of a
-      </p>
-      <div class="team_section_2 layout_padding">
-        <div class="row">
-          <div class="col-sm-3">
-            <img src="images/img-7.png" class="image_7">
-            <p class="readable_text">Readable</p>
-            <p class="readable_text_1">Follow Us</p>
-            <div class="social_icon">
-              <ul>
-                <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <img src="images/img-8.png" class="image_7">
-            <p class="readable_text">Content</p>
-            <p class="readable_text_1">Follow Us</p>
-            <div class="social_icon">
-              <ul>
-                <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <img src="images/img-9.png" class="image_7">
-            <p class="readable_text">Readable</p>
-            <p class="readable_text_1">Follow Us</p>
-            <div class="social_icon">
-              <ul>
-                <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <img src="images/img-10.png" class="image_7">
-            <p class="readable_text">Content</p>
-            <p class="readable_text_1">Follow Us</p>
-            <div class="social_icon">
-              <ul>
-                <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!--team section end -->
-
-
-
   <!--footer section start -->
   <div class="footer_section layout_padding margin_top_90">
     <div class="container">
@@ -788,7 +758,9 @@
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <script src="js/message.js"></script>
   <script src="js/document.js"></script>
-  <script src="js/popup.js"></script>
+  <!-- <script src="js/popup.js"></script> -->
+  <script src="./js/navbar.js"></script>
+  <script src="js/hero.js"></script>
 
 </body>
 

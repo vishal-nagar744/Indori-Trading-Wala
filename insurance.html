@@ -35,53 +35,81 @@
   <link rel="stylesheet" href="./css/insurance.css">
   <link rel="stylesheet" href="./css/download.css">
   <link rel="stylesheet" href="./css/message.css">
+  <link rel="stylesheet" href="./css/navbar.css">
 </head>
 
 <body>
   <!--header section start -->
   <div class="header_section header_bg">
     <!-- navbar -->
-    <nav style="background-color: #f8f9fa!important;" class="navbar navbar-expand-lg navbar-light bg-light">
-      <!-- <div class="logo"><a href="index.html"><img style="border-radius: 50px;" src="images/logo1.jpeg"></a></div> -->
-      <a class="navbar-brand" href="index.html">
-        <span>
-          <img style="width: 70px; border-radius: 50PX; margin: 7px;"
-            class="imageDivImageNext-0-2-43 imageDivImageNext-d4-0-2-58" src="images/newblacklogo.png">
-          Indori Trading Wala
-        </span>
-      </a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div style="margin-left: 33rem;" class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+    <div class="navbar">
+      <div class="nav-logo">
+        <a class="navbar-brand" href="index.html">
+          <span>
+            <img style="width: 70px; border-radius: 50PX; margin: 7px;"
+              class="imageDivImageNext-0-2-43 imageDivImageNext-d4-0-2-58" src="images/newblacklogo.png">
+            Indori Trading Wala
+          </span>
+        </a>
+      </div>
+      <div class="nav-items">
+        <ul>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="demat.html">Demat</a>
+            <a href="demat.html">Demat</a>
           </li>
           <li class="nav-item">
-            <a style="color: rgb(174, 30, 30);
-        border-bottom: 2px solid rgb(174, 30, 30);" class="nav-link" href="insurance.html">Insurance</a>
+            <a style="color: rgb(174, 30, 30);" href="insurance.html">Insurance</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="courses.html">Courses</a>
+            <a href="courses.html">Courses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="dailyupdate.html">Daily Update</a>
-          </li>
-          <li class="nav-item">
-            <a id="contact" class="nav-link" href="contact.html">Contact Us</a>
+            <a href="dailyupdate.html">Daily Update</a>
           </li>
         </ul>
       </div>
-    </nav>
+      <div class="nav-button">
+        <div class="anim-layer"></div>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div id="hamburger-menu">&#9776;</div>
+    </div>
+
+    <div id="mobile-menu">
+      <div class="mobile-nav-items">
+        <ul>
+          <li class="nav-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="demat.html">Demat</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: rgb(174, 30, 30);" href="insurance.html">Insurance</a>
+          </li>
+          <li class="nav-item">
+            <a href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="dailyupdate.html">Daily Update</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mobile-nav-button">
+        <div class="anim-layer"></div>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div id="hamburger-cross">&#10006;</div>
+    </div>
     <!-- navbar -->
   </div>
   <!--header section end -->
@@ -365,6 +393,7 @@
       <script src="js/owl.carousel.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
       <script src="js/message.js"></script>
+      <script src="js/navbar.js"></script>
 </body>
 
 </html>
