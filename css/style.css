@@ -225,7 +225,7 @@ button {
 }
 
 .layout_padding {
-     padding-top: 90px;
+     padding-top: 40px;
      padding-bottom: 0px;
 }
 .padding_0{
@@ -924,6 +924,6 @@ button {
     color: #ff5a58;
 }
 
-.margin_top_90{
+/* .margin_top_90{
   margin-top: 90px;
-}
+} */

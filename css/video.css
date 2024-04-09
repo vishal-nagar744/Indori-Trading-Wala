@@ -18,9 +18,7 @@ video{
   border-radius: 20px;
 }
 
-.video-sec{
-  padding-top: 70px;
-}
+
 
 .flex {
   display: flex;
@@ -41,7 +39,7 @@ video{
 
 .buttons{
   width: 70%;
-  margin: 20px auto;
+  /* margin: 20px auto; */
 }
 
 .play_store {
@@ -55,4 +53,8 @@ video{
   width: 270px;
   margin: 20px auto;
 
+}
+
+.video-sec{
+  height: auto !important;
 }
