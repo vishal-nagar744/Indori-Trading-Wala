@@ -1,81 +1,23 @@
-.container{
-    max-width:960px; margin:0 auto; position:relative;
- }
- 
- .step-wrapper{
-   margin:30px; margin-bottom:200px;  position:relative;
- }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
- .btn-start{
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.bg-light{
+    background-color: #f8f9fa !important;
+}
+
+#headingg{
     font-size: 40px;
-    background-color: transparent;
-    color: #010c35ea;
-    font-weight: bold;
- }
- 
- .linestep{ 
-    text-align:center;  max-width:250px; position:absolute;
-     .num {
-         color:#fff; border-radius:100px;
-         font-size: 20px;
-         display:inline-block;
-         width: 50px;
-         height: 50px; text-align:center;
-         line-height:40px; font-weight:bold;
-         background: #ff5a58;
-     }
-     p{
-         width: 250px;
-         position: absolute;
-         margin-top:7px;
-         font-weight: 500;
-         line-height: normal;
-         font-size: 20px;
-     }
- 
-     p.top{	bottom:50px; left: -110px;	}
-     p.bottom{	left: -110px;	}
-     p.left{ width: 200px;   right: 34px;		top: -17px;	}
-     p.right{ width: 200px;  left: 34px; 		top: -17px;	}
- }
- 
- .linestep{ visibility:hidden;  }
- .path{ visibility:hidden; }
- 
- .move-line{
-   .path{
-     visibility:visible;
-         stroke-dasharray: 3700;
-         stroke-dashoffset: 3700;
-         animation: moveline 4s linear forwards;
-     }
-     .linestep{
-         animation-name: show-step-item;
-         animation-duration:.2s;
-         animation-fill-mode: forwards;
-     }
-     .linestep1{ animation-delay:.4s; }
-     .linestep2{ animation-delay:.8s; }
-     .linestep3{ animation-delay:1.2s; }
-     .linestep4{ animation-delay:1.6s; }
-     .linestep5{ animation-delay:2s; }
-     .linestep6{ animation-delay:2.4s; }
-     .linestep7{ animation-delay:2.8s; }
-     .linestep8{ animation-delay:3.2s; }
- }
- 
- 
- @keyframes show-step-item{
-     from {  transform: scale(.2); opacity: 0}
-     to{ visibility:visible; transform: scale(1); opacity: 1 }
- }
- 
- @keyframes moveline {
-       to {
-         stroke-dashoffset: 0;
-       }
- }
+}
 
-
-
- 
+/* Media query for mobile screens */
+@media only screen and (max-width: 768px) {
+    #headingg {
+        font-size: 25px; /* Font size for mobile screens */
+    }
+}
