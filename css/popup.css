@@ -120,7 +120,8 @@ body {
   background-color: #ffd1dc;
 }
 
-.feature-icon i {
-  font-size: 20px; /* Reduced font size */
-  color: #ff758c;
-}
+    .feature-icon i {
+      font-size: 24px;
+      color: #ff758c;
+    }
+    
