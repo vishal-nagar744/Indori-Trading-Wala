@@ -89,7 +89,7 @@ body {
 }
 
 .button:hover {
-  background-color: #ffd1dc;
+  background-color: #ff758c;
   color: white;
 }
 
@@ -108,20 +108,20 @@ body {
   width: 40px; /* Reduced size */
   height: 40px; /* Reduced size */
   margin: 0 5px; /* Reduced margin */
-  border-radius: 50%;
+  /* border-radius: 50%; */
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
   transition: background-color 0.1s ease;
 }
 
-.feature-icon:hover {
+/* .feature-icon:hover {
   background-color: #ffd1dc;
-}
+} */
 
     .feature-icon i {
       font-size: 24px;
-      color: #ff758c;
+      /* color: #ff758c; */
     }
     
