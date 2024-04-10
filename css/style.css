@@ -285,7 +285,7 @@ button {
     width: 100%;
     float: left;
     padding-left: 100px;
-    padding-top: 80px;
+    padding-top: 200px;
 }
 .banner_taital {
     width: 100%;
@@ -939,5 +939,13 @@ button {
     
     .contact_bt a {
         font-size: 12px; /* Smaller font size for mobile screens */
+    }
+}
+
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 768px) {
+    .banner_main {
+        padding-top: 30px; /* Reduced padding-top value for mobile screens */
     }
 }
