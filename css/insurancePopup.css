@@ -1,0 +1,131 @@
+/* Write your CSS code here */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+:root {
+    --text-color: #112b53;
+}
+
+body {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f6f8;
+    font-family: "Rubik", sans-serif;
+    color: var(--text-color);
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ebecee;
+    height: 600px;
+    width: 400px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 30px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 50px;
+    aspect-ratio: 1/1;
+    outline: 2px solid #ebecee;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-basic-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.designation {
+    font-size: 15px;
+}
+
+.name {
+    font-weight: 500;
+}
+
+.password-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid var(--text-color);
+}
+
+input {
+    height: 90%;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-family: "Rubik", sans-serif;
+    color: var(--text-color);
+}
+
+
+
+.btn-controls {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+
+.btn-controls>button {
+    width: 100px;
+    height: 40px;
+    background-color: var(--text-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition:transform 500ms ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+a {
+    color: var(--text-color)
+}
+
