@@ -18,7 +18,7 @@ h5{
 }
 
 .blog-head h6{
-  color: #f05907;
+  color: #ff5a58;
   position: relative;
   display: inline-block;
   text-transform: capitalize;
@@ -30,7 +30,7 @@ h5{
   content: "";
   width: 50px;
   height: 3px;
-  background: #f05907;
+  background:#ff5a58;
   top: 50%;
 }
 
@@ -70,7 +70,7 @@ h5{
   right: 30px;
   bottom: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-  color: #f05907;
+  color:#ff5a58;
   font-size: 19px;
   width: 40px;
   height: 40px;
@@ -110,7 +110,7 @@ h5{
   height: 50px;
   line-height: 20px;
   text-align: center;
-  background-color: #f05907;
+  background-color:#ff5a58;
   color: #fff;
   padding: 5px;
   transform: rotate(45deg);
@@ -121,12 +121,12 @@ h5{
     display: inline-block;
 }
 .blog .item .info h5:hover{
-  color: #f05907;
+  color:#ff5a58;
 }
 
 .blog .item .info .user{
   margin-top: 20px;
-  color: #f05907;
+  color:#ff5a58;
 }
 
 .blog .item .info .user i{
