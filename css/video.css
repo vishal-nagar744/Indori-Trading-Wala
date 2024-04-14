@@ -37,24 +37,47 @@ video{
   justify-content: space-between;
 }
 
-.buttons{
+.buttons {
   width: 70%;
-  /* margin: 20px auto; */
+  margin: 20px auto;
 }
 
 .play_store {
   height: 118px;
-  width: 300px;
+  width: 100%;
+  max-width: 300px; /* Set maximum width */
   margin: 20px auto;
 }
 
 .app_store {
   height: 80px;
-  width: 270px;
+  width: 100%;
+  max-width: 270px; /* Set maximum width */
   margin: 20px auto;
-
 }
+
 
 .video-sec{
   height: auto !important;
 }
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .buttons {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+  
+  .play_store {
+    height: 69px;
+    width: 369px;
+    margin: 20px auto;
+
+  }
+  
+  .app_store {
+    height: 48px;
+    width: 327px;
+    margin: 20px auto;
+  }
+}
+
