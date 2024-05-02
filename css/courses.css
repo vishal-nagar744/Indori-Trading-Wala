@@ -101,12 +101,14 @@
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
+	
   }
   
   .card-meta {
 	display: flex;
 	align-items: center;
 	color: #787878;
+	margin-left: 30px;
   }
   
   .card-meta:first-child:after {
