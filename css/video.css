@@ -36,7 +36,7 @@ video {
 }
 
 .flex-sb {
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .buttons {
@@ -97,20 +97,19 @@ video {
 /* Media Query for smaller screens */
 @media only screen and (max-width: 600px) {
   .buttons {
-    width: 90%; 
+    width: 80%; 
     margin: 0 auto; /* Center the buttons */
+    margin-left: 35px;
   }
   
   .play_store {
     height: auto; /* Let the height adjust automatically */
     max-width: 100%; /* Ensure the width is responsive */
-    margin: 20px auto; /* Adjust margin if needed */
   }
   
   .app_store {
-    height: auto; /* Let the height adjust automatically */
+    height: 10% ; /* Let the height adjust automatically */
     max-width: 100%; /* Ensure the width is responsive */
-    margin: 20px auto; /* Adjust margin if needed */
   }
 }
 
@@ -125,7 +124,7 @@ video {
 
 @media screen and (max-width: 767px) {
   .video-sec {
-    padding-top: 120%; /* Adjust the padding as needed for smaller screens */
+    padding-top: 100%; /* Adjust the padding as needed for smaller screens */
   }
 }
 
