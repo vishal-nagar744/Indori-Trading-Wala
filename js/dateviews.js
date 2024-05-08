@@ -1,7 +1,7 @@
 function updateViewsAndDate(cardId) {
     var viewsElement = document.querySelector(`#${cardId} .viewsCount`);
     var dateElement = document.querySelector(`#${cardId} .dateValue`);
-  
+   
     // Update views with random number under 10000
     var randomViews = Math.floor(Math.random() * 10000);
     viewsElement.textContent = randomViews;

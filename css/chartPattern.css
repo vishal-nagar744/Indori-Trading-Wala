@@ -1,0 +1,120 @@
+
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    height: auto;
+  }
+  .section {
+    margin-bottom: 40px;
+    padding: 10px;
+  }
+  .section-header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-weight: bold !important;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    background-color: #333; /* Dark gray item background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .item-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .item-description {
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.819);
+  }
+  .item-description h3 {
+    margin-top: 0;
+    color: white;
+    font-size: 28px;
+  }
+  .item-description p {
+    margin-bottom: 5px;
+    font-size: 17px;
+  }
+  .button-container {
+    text-align: center;
+    padding: 20px;
+  }
+  .button {
+    padding: 10px 20px;
+    background-color: #f00; /* Red button background color */
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .button:hover {
+    background-color: #800; /* Dark red on hover */
+  }
+
+  /* MCQ Section */
+  .mcq-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #333; /* Dark gray section background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .mcq-img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+  }
+  .mcq-description {
+    padding: 20px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.817);
+  }
+  .mcq-description h3 {
+    margin-top: 0;
+    color: white;
+    font-size: 26px;
+  }
+  .mcq-description p {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .mcq-button-container {
+    text-align: center;
+    padding: 20px;
+  }
+  .mcq-button {
+    padding: 10px 20px;
+    background-color: #008000; /* Green button background color */
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .mcq-button:hover {
+    background-color: #005600; /* Dark green on hover */
+  }
+
+  @media screen and (min-width: 768px) {
+    .item-description,
+    .mcq-description {
+      width: 70%;
+    }
+  }

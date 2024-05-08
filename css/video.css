@@ -77,6 +77,22 @@ video {
 /* Rest of your CSS */
 
 
+.button {
+  padding: 10px 20px;
+  background-color: #f00; /* Red button background color */
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+.button:hover {
+  background-color: #800; /* Dark red on hover */
+}
+
 
 /* Media Query for smaller screens */
 @media only screen and (max-width: 600px) {
