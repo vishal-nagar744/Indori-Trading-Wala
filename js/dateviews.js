@@ -4,7 +4,7 @@ function updateViewsAndDate(cardId) {
    
     // Update views with random number under 10000
     var randomViews = Math.floor(Math.random() * 10000);
-    viewsElement.textContent = randomViews;
+    // viewsElement.textContent = randomViews;
   
     // Update date with only the date (no time)
     var currentDate = new Date().toLocaleDateString('en-US', {

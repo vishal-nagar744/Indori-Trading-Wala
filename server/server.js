@@ -18,8 +18,8 @@ app.post('/contact', (req, res) => {
   let adminTransporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: 'trackerzpoint@gmail.com', // Your Gmail email address
-      pass: 'pjcekmmgzpjcisbh' // Your Gmail password
+      user: 'itwclasses@gmail.com', // Your Gmail email address
+      pass: 'mauodubtojmfphdy' // Your Gmail password
     }
   });
 
@@ -54,14 +54,14 @@ app.post('/contact', (req, res) => {
   let userTransporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: 'trackerzpoint@gmail.com', // Your Gmail email address
-      pass: 'pjcekmmgzpjcisbh' // Your Gmail password
+      user: 'itwclasses@gmail.com', // Your Gmail email address
+      pass: 'mauodubtojmfphdy' // Your Gmail password
     }
   });
 
   // Email options for user
   let userMailOptions = {
-    from: 'trackerzpoint@gmail.com', // Your Gmail email address
+    from: 'itwclasses@gmail.com', // Your Gmail email address
     to: email, // User's email address
     subject: 'Thank You for Contacting Us',
     html: `
